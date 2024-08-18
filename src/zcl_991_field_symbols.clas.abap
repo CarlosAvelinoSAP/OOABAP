@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_field_symbols IMPLEMENTATION.
+CLASS ZCL_991_FIELD_SYMBOLS IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

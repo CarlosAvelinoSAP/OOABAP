@@ -15,15 +15,16 @@ ENDCLASS.
 
 
 
-CLASS zcl_oo_redefine IMPLEMENTATION.
+CLASS ZCL_OO_REDEFINE IMPLEMENTATION.
 
 
   METHOD main.
     me->meth(  ).
     out->write( | intG = {  intG } | ).
   ENDMETHOD.
+
+
   METHOD meth.
     intG += 1.
   ENDMETHOD.
-
 ENDCLASS.

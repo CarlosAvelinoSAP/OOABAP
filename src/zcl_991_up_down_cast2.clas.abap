@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_up_down_cast2 IMPLEMENTATION.
+CLASS ZCL_991_UP_DOWN_CAST2 IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

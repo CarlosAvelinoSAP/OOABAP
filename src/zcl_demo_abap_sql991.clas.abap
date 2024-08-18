@@ -20,7 +20,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_demo_abap_sql991 IMPLEMENTATION.
+CLASS ZCL_DEMO_ABAP_SQL991 IMPLEMENTATION.
+
 
   METHOD class_constructor.
     "Filling demo database tables.
@@ -1573,6 +1574,4 @@ CLASS zcl_demo_abap_sql991 IMPLEMENTATION.
       ORDER BY carrid
       INTO TABLE @itab_res.
   ENDMETHOD.
-
-
 ENDCLASS.

@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_cond_switch IMPLEMENTATION.
+CLASS ZCL_991_COND_SWITCH IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

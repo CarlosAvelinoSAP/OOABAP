@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_assigning_data_objs IMPLEMENTATION.
+CLASS ZCL_991_ASSIGNING_DATA_OBJS IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

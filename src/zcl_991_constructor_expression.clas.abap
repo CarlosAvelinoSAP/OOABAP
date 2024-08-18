@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_constructor_expression IMPLEMENTATION.
+CLASS ZCL_991_CONSTRUCTOR_EXPRESSION IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

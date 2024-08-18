@@ -12,7 +12,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_oo_polimorphism_cast IMPLEMENTATION.
+CLASS ZCL_OO_POLIMORPHISM_CAST IMPLEMENTATION.
+
+
   METHOD run.
     "------------ Object reference variables ------------
 
@@ -218,5 +220,4 @@ CLASS zcl_oo_polimorphism_cast IMPLEMENTATION.
     ENDCASE.
 
   ENDMETHOD.
-
 ENDCLASS.

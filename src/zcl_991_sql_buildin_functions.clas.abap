@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_sql_buildin_functions IMPLEMENTATION.
+CLASS ZCL_991_SQL_BUILDIN_FUNCTIONS IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

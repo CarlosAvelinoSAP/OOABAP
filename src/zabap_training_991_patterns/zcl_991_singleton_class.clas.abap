@@ -12,12 +12,13 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_singleton_class IMPLEMENTATION.
+CLASS ZCL_991_SINGLETON_CLASS IMPLEMENTATION.
+
+
   METHOD get_instance.
     IF inst IS NOT BOUND.
       inst = NEW #( ).
     ENDIF.
     ret = inst.
   ENDMETHOD.
-
 ENDCLASS.

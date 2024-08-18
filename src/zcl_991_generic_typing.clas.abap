@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_generic_typing IMPLEMENTATION.
+CLASS ZCL_991_GENERIC_TYPING IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

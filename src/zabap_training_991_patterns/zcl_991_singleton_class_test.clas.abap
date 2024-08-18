@@ -14,7 +14,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_singleton_class_test IMPLEMENTATION.
+CLASS ZCL_991_SINGLETON_CLASS_TEST IMPLEMENTATION.
+
+
   METHOD run.
 
     inst1 = NEW #(  ).
@@ -23,5 +25,4 @@ CLASS zcl_991_singleton_class_test IMPLEMENTATION.
     out->write( COND String( WHEN inst1 = inst2 THEN |iguais| ELSE |diferentes|  ) ).
 
   ENDMETHOD.
-
 ENDCLASS.

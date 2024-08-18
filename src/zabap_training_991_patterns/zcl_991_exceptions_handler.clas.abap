@@ -14,7 +14,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_exceptions_handler IMPLEMENTATION.
+CLASS ZCL_991_EXCEPTIONS_HANDLER IMPLEMENTATION.
+
+
   METHOD execution.
 
 * Declarations
@@ -104,5 +106,4 @@ CLASS zcl_991_exceptions_handler IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.

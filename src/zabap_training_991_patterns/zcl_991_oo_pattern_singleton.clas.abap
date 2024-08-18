@@ -10,7 +10,10 @@ CLASS zcl_991_oo_pattern_singleton DEFINITION
   PRIVATE SECTION.
 ENDCLASS.
 
-CLASS zcl_991_oo_pattern_singleton IMPLEMENTATION.
+
+
+CLASS ZCL_991_OO_PATTERN_SINGLETON IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 

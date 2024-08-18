@@ -16,14 +16,15 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_static_method IMPLEMENTATION.
+CLASS ZCL_991_STATIC_METHOD IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
   ENDMETHOD.
+
+
   METHOD static_method1.
 *  Within a static method, only static attributes can be accessed without specifying further information.
 *    data(localData) = instance_data1.
   ENDMETHOD.
-
 ENDCLASS.

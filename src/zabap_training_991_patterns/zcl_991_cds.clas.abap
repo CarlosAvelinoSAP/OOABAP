@@ -12,7 +12,8 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_cds IMPLEMENTATION.
+CLASS ZCL_991_CDS IMPLEMENTATION.
+
 
   METHOD if_oo_adt_classrun~main.
 

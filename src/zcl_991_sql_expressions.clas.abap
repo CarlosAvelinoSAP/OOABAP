@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_sql_expressions IMPLEMENTATION.
+CLASS ZCL_991_SQL_EXPRESSIONS IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

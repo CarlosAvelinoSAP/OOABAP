@@ -14,7 +14,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_constants IMPLEMENTATION.
+CLASS ZCL_991_CONSTANTS IMPLEMENTATION.
+
+
   METHOD execute.
 * Example 1: Local Types **********************************************************************
 * Comment/Uncomment the following lines to change the type of my_var TYPES my_type TYPE p LENGTH 3 DECIMALS 2.
@@ -50,5 +52,4 @@ CLASS zcl_991_constants IMPLEMENTATION.
     "uncomment this line to see syntax error (no number literal with digits)
 *    out->write( 12345.67  ).
   ENDMETHOD.
-
 ENDCLASS.

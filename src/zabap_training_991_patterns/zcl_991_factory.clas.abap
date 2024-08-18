@@ -17,7 +17,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_factory IMPLEMENTATION.
+CLASS ZCL_991_FACTORY IMPLEMENTATION.
+
+
   METHOD factory_method.
     IF ctr BETWEEN 0 AND 3.
       inst1 = NEW #( ).
@@ -31,13 +33,12 @@ CLASS zcl_991_factory IMPLEMENTATION.
   ENDMETHOD.
 
 
-
   METHOD getmsg1.
     MESSAGE = msg1 .
   ENDMETHOD.
 
+
   METHOD setMsg1.
     me->msg1 = msg1.
   ENDMETHOD.
-
 ENDCLASS.

@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_addressing_data_ref IMPLEMENTATION.
+CLASS ZCL_991_ADDRESSING_DATA_REF IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
@@ -21,6 +21,8 @@ CLASS zcl_991_addressing_data_ref IMPLEMENTATION.
 
     DATA(ref_i)    = NEW i( 1 ).
     DATA(ref_carr) = NEW zdemo_abap_carr( carrid = 'LH' carrname = 'Lufthansa' ).
+    DATA(ref_carr2) = NEW zdemo_abap_carr( carrid = 'LH'   ).
+    out->write( ref_carr2->* ).
 
     "Generic type
 

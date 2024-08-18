@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_data_references4 IMPLEMENTATION.
+CLASS ZCL_991_DATA_REFERENCES4 IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.

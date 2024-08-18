@@ -98,7 +98,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_demo_test IMPLEMENTATION.
+CLASS ZCL_DEMO_TEST IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
     "Note:
@@ -425,15 +427,18 @@ CLASS zcl_demo_test IMPLEMENTATION.
 
   ENDMETHOD.
 
+
   METHOD class_constructor.
     "Assigning the current UTC timestamp to a static attribute
     stat_attr = utclong_current( ).
   ENDMETHOD.
 
+
   METHOD constructor.
     "Assigning the current UTC timestamp to an instance attribute
     inst_attr = utclong_current( ).
   ENDMETHOD.
+
 
   METHOD inst_meth1.
     inst_string = `Changed in inst_meth1`.
@@ -443,22 +448,27 @@ CLASS zcl_demo_test IMPLEMENTATION.
     DATA(b) = stat_attr.
   ENDMETHOD.
 
+
   METHOD inst_meth2.
     inst_string = |Changed in inst_meth2. Content of passed string: { ip }|.
   ENDMETHOD.
+
 
   METHOD inst_meth3.
     ep = ip1 + ip2.
   ENDMETHOD.
 
+
   METHOD inst_meth4.
     ret = |This string was assigned to the returning parameter at { utclong_current( ) }|.
   ENDMETHOD.
+
 
   METHOD inst_meth5.
     ep = |Strings '{ ip1 }' and '{ ip2 }' were assigned to the exporting parameter at { utclong_current( ) }|.
     ret = |Strings '{ ip1 }' and '{ ip2 }' were assigned to the returning parameter at { utclong_current( ) }|.
   ENDMETHOD.
+
 
   METHOD inst_meth6.
     "Demonstrating the self-reference 'me'
@@ -471,9 +481,11 @@ CLASS zcl_demo_test IMPLEMENTATION.
     chg = |The local data object was changed: '{ to_upper( chg ) }'\nChecking the self-reference me:\ninst_string: '{ inst_string }'\nme->inst_string: '{ me->inst_string }'|.
   ENDMETHOD.
 
+
   METHOD inst_meth7.
     ret = ipow( base = ip1 exp = ip2 ).
   ENDMETHOD.
+
 
   METHOD inst_meth8.
     IF ip1 = 1.
@@ -482,6 +494,7 @@ CLASS zcl_demo_test IMPLEMENTATION.
       ret = `No exception was raised.`.
     ENDIF.
   ENDMETHOD.
+
 
   METHOD stat_meth1.
     "Static methods can only access static attributes.
@@ -507,6 +520,7 @@ CLASS zcl_demo_test IMPLEMENTATION.
     ret = |ip1 = '{ ip1 }', ip2 = '{ ip2 }', ip3 (modified) = '{ ip3 }' / read_only_attr = '{ read_only_attr }'|.
   ENDMETHOD.
 
+
   METHOD stat_meth2.
     "Using IS SUPPLIED in an IF control structure
     IF ip1 IS SUPPLIED.
@@ -521,6 +535,7 @@ CLASS zcl_demo_test IMPLEMENTATION.
                    ELSE |ip2 is not supplied, value: '{ ip2 }'| ) TO ret.
   ENDMETHOD.
 
+
   METHOD stat_meth3.
     "You may check the content in the debugger.
     DATA(a) = REF #( ip_data ).
@@ -530,5 +545,4 @@ CLASS zcl_demo_test IMPLEMENTATION.
 
     ret = ip_clike.
   ENDMETHOD.
-
 ENDCLASS.

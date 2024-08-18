@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_991_utc_current IMPLEMENTATION.
+CLASS ZCL_991_UTC_CURRENT IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
