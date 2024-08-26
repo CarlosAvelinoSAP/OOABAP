@@ -1,12 +1,10 @@
-CLASS zcl_oo_abstract DEFINITION
-  PUBLIC
-  ABSTRACT
-  CREATE PUBLIC .
+class ZCL_OO_ABSTRACT definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-  PROTECTED SECTION.
-    METHODS meth ABSTRACT.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 

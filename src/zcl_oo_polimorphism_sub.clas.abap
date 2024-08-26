@@ -1,10 +1,10 @@
-CLASS zcl_oo_polimorphism_sub DEFINITION INHERITING FROM zcl_oo_polimorphism_super
-  PUBLIC
-  CREATE PUBLIC .
+class ZCL_OO_POLIMORPHISM_SUB definition
+  public
+  create private .
 
-  PUBLIC SECTION.
-  PROTECTED SECTION.
-  PRIVATE SECTION.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 

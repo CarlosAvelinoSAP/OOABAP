@@ -1,24 +1,13 @@
-CLASS zcl_991_singleton_class DEFINITION
-  PUBLIC
-  FINAL
-  CREATE PUBLIC .
+class ZCL_991_SINGLETON_CLASS definition
+  public
+  create private .
 
-   PUBLIC SECTION.
-    CLASS-METHODS get_instance RETURNING VALUE(ret) TYPE REF TO zcl_991_singleton_class.
-
-  PRIVATE SECTION.
-    CLASS-DATA inst TYPE REF TO zcl_991_singleton_class.
+public section.
+protected section.
+private section.
 ENDCLASS.
 
 
 
 CLASS ZCL_991_SINGLETON_CLASS IMPLEMENTATION.
-
-
-  METHOD get_instance.
-    IF inst IS NOT BOUND.
-      inst = NEW #( ).
-    ENDIF.
-    ret = inst.
-  ENDMETHOD.
 ENDCLASS.

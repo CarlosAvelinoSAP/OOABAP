@@ -4,8 +4,6 @@
   <asx:values>
    <DEVC>
     <CTEXT>ABAP 991 training paterns</CTEXT>
-    <COMP_POSID>BC-ABA-LI</COMP_POSID>
-    <COMPONENT>HLB0100064</COMPONENT>
    </DEVC>
   </asx:values>
  </asx:abap>
